@@ -1,11 +1,9 @@
 Step 1
 docker build -t timer .
 Step 2
-docker container --name timercontainer timer
-Step 3 
-docker start timercontainer
+docker run --name timercontainer timer
 Step 4
 docker attach timercontainer
 
-If you want to see active container
+If you want to see active containers
 docker ps -a
