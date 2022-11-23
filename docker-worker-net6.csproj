@@ -11,5 +11,7 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+        <PackageReference Include="System.Security.Cryptography.Encoding" Version="4.3.0" />
+        <PackageReference Include="System.Security.Cryptography.Primitives" Version="4.3.0" />
     </ItemGroup>
 </Project>
