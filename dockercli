@@ -2,8 +2,22 @@ Step 1
 docker build -t timer .
 Step 2
 docker run --name timercontainer timer
-Step 4
-docker attach timercontainer
 
 If you want to see active containers
 docker ps -a
+If you want to remove container
+docker container rm -f timerex
+If you want to see images 
+docker images
+If you want to remove image
+docker image rm -f timer
+
+another variant
+Step 1
+docker build -t timer .
+Step 2
+docker container -t timerex timer
+Step 3
+docker start timerex
+Step 4 
+docker attach timerexs
