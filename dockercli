@@ -11,6 +11,10 @@ If you want to see images
 docker images
 If you want to remove image
 docker image rm -f timer
+If you want to copy image
+docker tag imageName copyImageName:v1
+
+
 
 another variant
 Step 1
